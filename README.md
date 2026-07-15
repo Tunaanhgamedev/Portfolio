@@ -22,5 +22,5 @@ A simple productivity app for creating and tracking daily tasks.
 A project that consumes external APIs and presents data through a clean UI.
 
 ## Contact
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your-email@example.com
+- GitHub: [@tunaanhgamedev](https://github.com/tunaanhgamedev)
+- Email: anh2005qpqb@gmail.com
