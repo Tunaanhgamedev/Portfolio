@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Tuấn Anh | Portfolio - Game Developer & Gameplay Programmer</title>
+  <meta name="description" content="Trang web portfolio giới thiệu bản thân và các dự án phát triển game, lập trình gameplay, phát triển web của Tuấn Anh (Tunaanhgamedev).">
+  <meta name="keywords" content="Tuan Anh, Tunaanhgamedev, Game Developer, Gameplay Programmer, Unity C#, Web Developer, Portfolio">
+  <meta name="author" content="Tuấn Anh">
+  
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Tuấn Anh | Portfolio - Game Developer & Gameplay Programmer">
+  <meta property="og:description" content="Trang web portfolio giới thiệu bản thân và các dự án phát triển game, lập trình gameplay, phát triển web của Tuấn Anh.">
+  <meta property="og:image" content="avatar.jpg">
+  <meta property="og:url" content="https://github.com/Tunaanhgamedev">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="avatar.jpg">
+
+  <!-- Icons & Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo" id="nav-logo">
+        TUAN<span>ANH</span>
+      </a>
+      <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav id="main-navigation">
+        <ul>
+          <li><a href="#home" class="active">Trang Chủ</a></li>
+          <li><a href="#about">Giới Thiệu</a></li>
+          <li><a href="#skills">Kỹ Năng</a></li>
+          <li><a href="#projects">Dự Án</a></li>
+          <li><a href="#stats">Thống Kê</a></li>
+          <li><a href="#contact">Liên Hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">
+            <i class="fas fa-terminal"></i>
+            <span>SYSTEM INITIALIZED</span>
+          </div>
+          <h1 class="hero-title">
+            Xin chào, tôi là<br>
+            <span class="gradient-text">Tuấn Anh</span>
+          </h1>
+          <div class="hero-typed">Game Developer //</div>
+          <p class="hero-desc">
+            Tôi là một sinh viên Công nghệ Thông tin đam mê phát triển trò chơi điện tử và lập trình gameplay. Tôi thích kiến tạo các cơ chế game hấp dẫn, trải nghiệm tương tác mượt mà và các ứng dụng thực tiễn hữu ích.
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">
+              <span>Xem Dự Án</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Liên Hệ</span>
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <img src="avatar.jpg" alt="Tuấn Anh Cyberpunk Avatar">
+            
+            <!-- HUD Panels for Game Developer Vibe -->
+            <div class="hud-panel hud-panel-1">
+              <span class="hud-label">VỊ TRÍ</span>
+              <span class="hud-value cyan-glow-text">GAMEPLAY PROG</span>
+            </div>
+            
+            <div class="hud-panel hud-panel-2">
+              <span class="hud-label">TRẠNG THÁI</span>
+              <span class="hud-value purple-glow-text">SẴN SÀNG LÀM VIỆC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Hồ sơ cá nhân</span>
+          <h2 class="section-title">Về Bản Thân</h2>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-details">
+            <p class="about-p">
+              Tôi hiện đang theo học chuyên ngành <strong>Công nghệ Thông tin</strong>. Từ những ngày đầu tiếp cận với lập trình, tôi đã bị thu hút bởi thế giới phát triển game, nơi giao thoa giữa mã nguồn logic, đồ họa nghệ thuật và trải nghiệm người dùng sống động.
+            </p>
+            <p class="about-p">
+              Mục tiêu chính của tôi là trở thành một <strong>Gameplay Programmer chuyên nghiệp</strong>, tập trung tối ưu hóa các cơ chế tương tác, trí tuệ nhân tạo (AI) trong game và xây dựng trải nghiệm game mượt mà nhất bằng công cụ Unity. Bên cạnh đó, tôi cũng mở rộng kỹ năng sang mảng phát triển web hiện đại để xây dựng hệ thống toàn diện.
+            </p>
+            
+            <div class="about-info-grid">
+              <div class="info-item">
+                <span class="info-label">Email</span>
+                <span class="info-val">anh2005qpqb@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">GitHub</span>
+                <span class="info-val"><a href="https://github.com/Tunaanhgamedev" target="_blank" class="cyan-glow-text">@Tunaanhgamedev</a></span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Vai Trò</span>
+                <span class="info-val">IT Student & Game Dev</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Công Cụ Chính</span>
+                <span class="info-val">Unity, C#, JS/TS</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-stats">
+            <div class="stat-box glass-card">
+              <span class="stat-num cyan-glow-text">28</span>
+              <span class="stat-lbl">Kho Lưu Trữ GitHub</span>
+            </div>
+            <div class="stat-box glass-card">
+              <span class="stat-num purple-glow-text">10+</span>
+              <span class="stat-lbl">Ngôn Ngữ & Công Nghệ</span>
+            </div>
+            <div class="stat-box glass-card">
+              <span class="stat-num purple-glow-text">100%</span>
+              <span class="stat-lbl">Đam mê & Tự Học</span>
+            </div>
+            <div class="stat-box glass-card">
+              <span class="stat-num cyan-glow-text">24/7</span>
+              <span class="stat-lbl">Liên Tục Cải Tiến</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="skills" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Kho vũ khí công nghệ</span>
+          <h2 class="section-title">Kỹ Năng Kỹ Thuật</h2>
+        </div>
+        
+        <div class="tech-tabs">
+          <button class="tab-btn active" data-tab="gamedev">Lập Trình Game</button>
+          <button class="tab-btn" data-tab="languages">Ngôn Ngữ</button>
+          <button class="tab-btn" data-tab="frameworks">Công Nghệ & Web</button>
+          <button class="tab-btn" data-tab="tools">Công Cụ & CSDL</button>
+        </div>
+        
+        <div class="tech-grid">
+          <!-- Dynamic rendering from app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Sản phẩm thực tế</span>
+          <h2 class="section-title">Dự Án Nổi Bật</h2>
+        </div>
+        
+        <!-- Featured Projects Showcase -->
+        <div class="projects-grid" id="featured-projects-grid">
+          <!-- Curated projects dynamically rendered from app.js -->
+        </div>
+
+        <div class="section-header" style="margin-top: 5rem; margin-bottom: 2.5rem;">
+          <span class="section-subtitle">Kho dự án đầy đủ</span>
+          <h3 class="section-title" style="font-size: 1.8rem;">Dự Án Khác Trên GitHub</h3>
+        </div>
+
+        <!-- Full list of GitHub repos (Dynamically loaded) -->
+        <div class="projects-grid" id="all-repos-grid">
+          <!-- Loaded via API from app.js -->
+        </div>
+
+        <div class="repos-hub-footer">
+          <!-- Load more button will be placed here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- GitHub Stats Section -->
+    <section id="stats" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Hiệu suất mã nguồn</span>
+          <h2 class="section-title">Chỉ Số GitHub</h2>
+        </div>
+        
+        <div class="stats-wrapper">
+          <div class="github-card-iframe glass-card">
+            <img src="https://github-readme-stats.shion.dev/api?username=Tunaanhgamedev&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="Tuấn Anh GitHub Stats">
+          </div>
+          
+          <div class="github-card-iframe glass-card">
+            <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Tunaanhgamedev&theme=tokyonight&hide_border=true&include_all_commits=true&layout=compact" alt="Tuấn Anh GitHub Top Languages">
+          </div>
+
+          <div class="github-card-iframe glass-card" style="grid-column: 1 / -1; min-height: auto;">
+            <img src="https://streak-stats.demolab.com/?user=Tunaanhgamedev&theme=tokyonight&hide_border=true" alt="Tuấn Anh GitHub Streak" style="width: 100%; max-width: 600px;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Kết nối với tôi</span>
+          <h2 class="section-title">Liên Hệ</h2>
+        </div>
+        
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-card glass-card">
+              <h3 class="contact-card-title cyan-glow-text">Thông Tin Kết Nối</h3>
+              <ul class="contact-list">
+                <li class="contact-list-item">
+                  <div class="contact-list-icon"><i class="fas fa-envelope"></i></div>
+                  <div class="contact-list-details">
+                    <span class="contact-list-label">Email trực tiếp</span>
+                    <span class="contact-list-val">anh2005qpqb@gmail.com</span>
+                  </div>
+                </li>
+                <li class="contact-list-item">
+                  <div class="contact-list-icon"><i class="fab fa-github"></i></div>
+                  <div class="contact-list-details">
+                    <span class="contact-list-label">GitHub</span>
+                    <span class="contact-list-val"><a href="https://github.com/Tunaanhgamedev" target="_blank">github.com/Tunaanhgamedev</a></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="social-links">
+              <a href="https://github.com/Tunaanhgamedev" target="_blank" class="social-icon-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="mailto:anh2005qpqb@gmail.com" class="social-icon-btn" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+          </div>
+          
+          <form class="contact-form glass-card" id="contact-form">
+            <h3 class="contact-card-title purple-glow-text" style="border:none; padding:0;">Gửi Lời Nhắn</h3>
+            
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Tên của bạn</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Nhập tên..." required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email liên hệ</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="Nhập email..." required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="form-label">Tiêu đề</label>
+              <input type="text" id="subject" name="subject" class="form-input" placeholder="Tiêu đề tin nhắn..." required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Lời nhắn</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Nhập nội dung lời nhắn tại đây..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+              <span>Truyền Tin Nhắn</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-wrapper">
+      <div class="footer-text">
+        &copy; 2026 <span>Tuấn Anh (Tunaanhgamedev)</span>. Tất cả các quyền được bảo lưu.
+      </div>
+      <div class="footer-text" style="font-family: var(--font-hud)">
+        // BUILD WITH PASSION & CODING
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js" defer></script>
+</body>
+</html>
